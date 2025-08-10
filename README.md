@@ -1,38 +1,22 @@
 # Development of an AI-Based Melanoma Detection and Assessment System
 
-This repository contains my thesis project focused on the development of an artificial intelligence (AI) system for detecting and evaluating melanoma from medical images. The project explores different deep learning approaches, including models built from scratch and transfer learning.
+This repository contains my thesis project focused on developing an AI-driven system for detecting and assessing melanoma using dermatoscopic images. It explores deep learning models built from scratch and via transfer learning.
 
-## 📄 Thesis PDF
-Download the full thesis:  
-[Deep-learning-Medical-SkinCancer-Thesis.pdf](Deep-learning-Medical-SkinCancer-Thesis.pdf)
+## ​ Thesis PDF  
+[Download the full thesis (PDF)](Deep-learning-Medical-SkinCancer-Thesis.pdf)
 
-## 🎯 Objective
-To design, implement, and evaluate deep learning models capable of detecting melanoma in dermatoscopic images with high accuracy, aiming to support early diagnosis in clinical settings.
+##  Objective  
+Design and evaluate deep learning-based models for melanoma detection with clinical-level accuracy, aiding early clinical diagnosis.
 
-## 🔬 Methodology
-1. **Data Preprocessing**  
-   - Image normalization  
-   - Data augmentation  
-   - Balancing classes  
+##  Methodology  
+1. **Preprocessing**: Image normalization, augmentation, class balancing.  
+2. **Modeling**:  
+   - Students Net (MATLAB) – from scratch  
+   - AlexNet (MATLAB) – transfer learning  
+   - Bayesian CNN (Python) – from scratch  
+3. **Evaluation Metric**: F1-score (prioritized for its balance of precision and recall, key in medical diagnosis).
 
-2. **Model Development**  
-   - From Scratch – Students Net (MATLAB)  
-   - Transfer Learning – AlexNet (MATLAB)  
-   - From Scratch – Bayesian CNN (Python)  
-
-3. **Evaluation Metrics**  
-   - F1-score  
-   - Accuracy  
-   - Sensitivity and specificity  
-
-## 📊 Results
-
-The models were evaluated using multiple performance metrics: **accuracy**, **sensitivity (recall)**, **precision**, **specificity**, and **F1-score**.  
-
-For biomedical image classification, **F1-score** was chosen as the primary evaluation metric, as it balances both **precision** and **recall**, which is essential in medical diagnosis to reduce both false positives and false negatives.
-
-The models were evaluated on training, validation, and test sets:
-
+##  Results
 
 | Technique                           | Training (%) | Validation (%) | Test (%) |
 |-------------------------------------|--------------|----------------|----------|
@@ -40,17 +24,18 @@ The models were evaluated on training, validation, and test sets:
 | Transfer Learning – AlexNet         | 99.37        | 99.79          | 99.58    |
 | From Scratch – Python (Bayesian)    | 97.72        | 93.17          | 93.26    |
 
-**Transfer Learning with AlexNet** achieved the highest performance, with **99.58% F1-score on the test set**, followed by the Bayesian CNN developed in Python.
+Transfer Learning with AlexNet achieved the best performance (**99.58% F1-score on the test set**), closely followed by the Bayesian CNN in Python.
 
-## 📂 Repository Structure
 
-## 🚀 Future Work
-- Migrate all models to Python for easier reproducibility.  
-- Integrate the best-performing model into a web-based diagnostic tool.  
-- Explore other architectures (e.g., EfficientNet, Vision Transformers).
+##  Future Work  
+- Fullly migrating experiments to Python for reproducibility.  
+- Integrating top models into a web-based diagnostic prototype.  
+- Exploring other architectures (EfficientNet, Vision Transformers...).
 
-## 📬 Contact
-If you have questions or want to collaborate:  
+##  Contact  
 **Isaias Rojas M.**  
 Email: rojas.isaiah.1998@gmail.com  
 GitHub: [IsaiasRojasM](https://github.com/IsaiasRojasM)
+
+##  Repository Structure
+
