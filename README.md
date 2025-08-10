@@ -27,7 +27,12 @@ To design, implement, and evaluate deep learning models capable of detecting mel
 
 ## 📊 Results
 
-The models were evaluated using F1-score on training, validation, and test sets:
+The models were evaluated using multiple performance metrics: **accuracy**, **sensitivity (recall)**, **precision**, **specificity**, and **F1-score**.  
+
+For biomedical image classification, **F1-score** was chosen as the primary evaluation metric, as it balances both **precision** and **recall**, which is essential in medical diagnosis to reduce both false positives and false negatives.
+
+The models were evaluated on training, validation, and test sets:
+
 
 | Technique                           | Training (%) | Validation (%) | Test (%) |
 |-------------------------------------|--------------|----------------|----------|
@@ -38,3 +43,14 @@ The models were evaluated using F1-score on training, validation, and test sets:
 **Transfer Learning with AlexNet** achieved the highest performance, with **99.58% F1-score on the test set**, followed by the Bayesian CNN developed in Python.
 
 ## 📂 Repository Structure
+
+## 🚀 Future Work
+- Migrate all models to Python for easier reproducibility.  
+- Integrate the best-performing model into a web-based diagnostic tool.  
+- Explore other architectures (e.g., EfficientNet, Vision Transformers).
+
+## 📬 Contact
+If you have questions or want to collaborate:  
+**Isaias Rojas M.**  
+Email: rojas.isaiah.1998@gmail.com  
+GitHub: [IsaiasRojasM](https://github.com/IsaiasRojasM)
