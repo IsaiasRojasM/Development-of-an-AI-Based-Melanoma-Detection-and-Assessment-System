@@ -1,20 +1,40 @@
-# Development-of-an-AI-Based-Melanoma-Detection-and-Assessment-System
+# Development of an AI-Based Melanoma Detection and Assessment System
 
-This repository contains my thesis focused on developing an AI-driven system for melanoma detection and assessment using medical imaging.
+This repository contains my thesis project focused on the development of an artificial intelligence (AI) system for detecting and evaluating melanoma from medical images. The project explores different deep learning approaches, including models built from scratch and transfer learning.
 
-##  Thesis PDF
-Download the full thesis:
-[Deep Learning for Melanoma Detection (PDF)](Deep-learning-Medical-SkinCancer-Thesis.pdf)
+## 📄 Thesis PDF
+Download the full thesis:  
+[Deep-learning-Medical-SkinCancer-Thesis.pdf](Deep-learning-Medical-SkinCancer-Thesis.pdf)
 
-##  Summary
-- Objective: Use CNNs to analyze dermatoscopic images and detect malignant lesions. (to classify whether an image shows melanoma or not)
-- Approach: Data preprocessing → Model training (Transfer Learning) → Evaluation with metrics (accuracy, sensitivity, AUC, F1 score).
-- Results: Achieved XX% accuracy on test data. Improvements using data augmentation and hyperparameter tuning.
+## 🎯 Objective
+To design, implement, and evaluate deep learning models capable of detecting melanoma in dermatoscopic images with high accuracy, aiming to support early diagnosis in clinical settings.
 
-##  Folder Structure
-- `README.md` – This file
-- `Deep-learning-Medical-SkinCancer-Thesis.pdf` – Full thesis document
+## 🔬 Methodology
+1. **Data Preprocessing**  
+   - Image normalization  
+   - Data augmentation  
+   - Balancing classes  
 
+2. **Model Development**  
+   - From Scratch – Students Net (MATLAB)  
+   - Transfer Learning – AlexNet (MATLAB)  
+   - From Scratch – Bayesian CNN (Python)  
 
-##  Contact
-If you have questions or want to collaborate, feel free to reach out at: rojas.isaiah.1998@gmail.com
+3. **Evaluation Metrics**  
+   - F1-score  
+   - Accuracy  
+   - Sensitivity and specificity  
+
+## 📊 Results
+
+The models were evaluated using F1-score on training, validation, and test sets:
+
+| Technique                           | Training (%) | Validation (%) | Test (%) |
+|-------------------------------------|--------------|----------------|----------|
+| From Scratch – Students Net         | 80.90        | 80.07          | 80.57    |
+| Transfer Learning – AlexNet         | 99.37        | 99.79          | 99.58    |
+| From Scratch – Python (Bayesian)    | 97.72        | 93.17          | 93.26    |
+
+**Transfer Learning with AlexNet** achieved the highest performance, with **99.58% F1-score on the test set**, followed by the Bayesian CNN developed in Python.
+
+## 📂 Repository Structure
